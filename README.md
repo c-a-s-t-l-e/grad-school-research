@@ -1,4 +1,4 @@
-# Grad School Research
+## Grad School Research
 
 <p align="center">
   <img src="./utk-ctr.jpeg" alt="UTK CTR Logo" width="400"/>
