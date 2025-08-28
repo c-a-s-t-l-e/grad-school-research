@@ -30,6 +30,7 @@ grad-school-research/
 ├── projects/                # Each sub-project for my PhD
 │   ├── project1-topic-name/
 │   │   ├── README.md        # Project-specific overview
+│   │   ├── shell.nix        # Project-specific environment
 │   │   ├── data/
 │   │   │   ├── raw/
 │   │   │   └── processed/
