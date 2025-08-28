@@ -6,6 +6,8 @@
 
 This repo serves as a public container for my research at the [University of Tennessee's Center for Transportation Research](https://ctr.utk.edu/).
 
+---
+
 It is organized as follows:
 
 ## Repository Structure
