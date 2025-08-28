@@ -9,7 +9,7 @@ It is oranized as follows:
 ## Repository Structure
 
 ```text
-phd-research/
+grad-school-research/
 ├── README.md                # Overview of your PhD research themes & goals
 ├── LICENSE                  # License for open source work
 ├── CITATION.cff             # General citation for your PhD repo
