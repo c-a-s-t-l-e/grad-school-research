@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Astle"
+  given-names: "W. Abram"
+  orcid: "https://orcid.org/0009-0003-5162-4657"
+title: "The Grad School Transportation Research Repo"
+version: 1.0.0
+date-released: 2025-08-29
+url: "https://github.com/c-a-s-t-l-e/grad-school-research"
