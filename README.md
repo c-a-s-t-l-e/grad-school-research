@@ -21,13 +21,14 @@ grad-school-research/
 ├── CONTRIBUTING.md          # How collaborators can contribute
 
 ├── docs/                    # Centralized documentation
-│   ├── overview.md          # Narrative summary of research directions
+│   ├── overview.md          # Summary of research directions
 │   ├── methods/             # General methodological notes
 │   ├── publications/        # Preprints, published papers, drafts
 │   ├── presentations/       # Slides, posters, talks
 │   └── references.bib       # Shared bibliography
 
 ├── projects/                # Each sub-project for my PhD
+│   ├── overview.md          # Summary of each project
 │   ├── project1-topic-name/
 │   │   ├── README.md        # Project-specific overview
 │   │   ├── shell.nix        # Project-specific environment
@@ -42,6 +43,7 @@ grad-school-research/
 │   └── project3-topic-name/
 
 ├── shared/                  # Cross-cutting resources
+│   ├── overview.md          # Summary of shared resources
 │   ├── data/                # Reusable datasets across projects
 │   ├── code/                # General utility scripts
 │   ├── notebooks/           # Cross-project exploratory notebooks
