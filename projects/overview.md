@@ -1,1 +1,1 @@
-# Overview of /Projects
+# Overview of /projects
