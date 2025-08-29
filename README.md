@@ -52,6 +52,7 @@ grad-school-research/
 └── .gitignore
 
 ```
+
 ### An Overview of My Research
 
 TBD
