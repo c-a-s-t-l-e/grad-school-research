@@ -48,11 +48,10 @@ grad-school-research/
 │   └── templates/           # Paper templates, plotting styles, configs
 
 ├── environment.yml          # Global environment (or lockfile)
+├── Makefile                 # Automate workflows (tests, docs, builds)
+└── .gitignore
 
----
-
+```
 ### An Overview of My Research
 
 TBD
-├── Makefile                 # Automate workflows (tests, docs, builds)
-└── .gitignore
