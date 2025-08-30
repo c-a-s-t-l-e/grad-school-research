@@ -1,0 +1,533 @@
+Var1,Var2,CramerV
+Model,Vehicle,1.0000000000000007
+Vehicle,Model,1.0000000000000007
+Make,Vehicle,1.0000000000000002
+Vehicle,Weather - Snow,1.0000000000000002
+Model Year,Vehicle,1
+Vehicle,Make,1
+Model,Make,1
+Make,Model,1
+Vehicle,Model Year,1
+Weather - Other Text,Weather - Other,1
+Weather - Other,Weather - Other Text,1
+Weather - Snow,Vehicle,0.9999999999999999
+City,State,0.9671696974908525
+State,City,0.9671696974908504
+Weather - Unknown,Lighting,0.9577928699146792
+Lighting,Weather - Unknown,0.9577928699146792
+City,Weather - Fog/Smoke,0.9572260731908091
+Weather - Fog/Smoke,City,0.9572260731908087
+Driver / Operator Type,Vehicle,0.9448180437774402
+Vehicle,Driver / Operator Type,0.94481804377744
+Roadway Surface,Weather - Unknown,0.9412406533142168
+Weather - Unknown,Roadway Surface,0.9412406533142167
+Weather - Unknown,Roadway Type,0.9160689584930438
+Roadway Type,Weather - Unknown,0.9160689584930438
+Vehicle,CP Was Vehicle Towed?,0.9017336382902859
+CP Was Vehicle Towed?,Vehicle,0.9017336382902855
+Roadway Type,City,0.8877641307507177
+City,Roadway Type,0.8877641307507164
+City,Weather - Snow,0.8658038289045781
+Weather - Snow,City,0.8658038289045762
+Model,Weather - Snow,0.8658038289045723
+Weather - Snow,Model,0.8658038289045719
+SV Contact Area - Top,City,0.8547895016457697
+City,SV Contact Area - Top,0.8547895016457627
+Weather - Other,City,0.8460089503529852
+City,Weather - Other,0.8460089503529835
+SV Contact Area - Bottom,City,0.8357760965835641
+City,SV Contact Area - Bottom,0.8357760965835614
+Highest Injury Severity Alleged,City,0.8327568726508306
+City,Highest Injury Severity Alleged,0.832756872650826
+Weather - Rain,Roadway Surface,0.8313861036544646
+Roadway Surface,Weather - Rain,0.8313861036544646
+City,Make,0.8296158911131003
+Make,City,0.8296158911130996
+Model,City,0.8180978230644699
+City,Model,0.8180978230644668
+Weather - Rain,City,0.8174336061449405
+City,Weather - Rain,0.8174336061449371
+SV Contact Area - Right,City,0.8163062659323185
+City,SV Contact Area - Right,0.8163062659323141
+City,Roadway Description,0.8092930863357376
+Roadway Description,City,0.8092930863357352
+Vehicle,City,0.8069944037286122
+City,Vehicle,0.806994403728612
+Roadway Surface,City,0.8066155238212643
+City,Roadway Surface,0.8066155238212634
+City,Speed Difference Category,0.8060505100778511
+Speed Difference Category,City,0.8060505100778482
+CP Pre-Crash Movement,City,0.8050165405512733
+City,CP Pre-Crash Movement,0.8050165405512686
+Model,CP Was Vehicle Towed?,0.8045944948126199
+CP Was Vehicle Towed?,Model,0.8045944948126196
+Weather - Cloudy,City,0.8035148053763629
+City,Weather - Cloudy,0.8035148053763591
+SV Contact Area - Front Right,City,0.7987247921973086
+City,SV Contact Area - Front Right,0.7987247921973073
+City,Weather - Unknown,0.7958877445255363
+Weather - Unknown,City,0.7958877445255311
+City,CP Contact Area - Bottom,0.7955370015776237
+CP Contact Area - Bottom,City,0.7955370015776196
+Weather - Other Text,City,0.7925296641239188
+City,Weather - Other Text,0.7925296641239171
+City,CP Any Air Bags Deployed?,0.7912598790207019
+CP Any Air Bags Deployed?,City,0.7912598790206998
+Weather - Clear,City,0.7891522666246746
+City,Weather - Clear,0.7891522666246746
+City,SV Were All Passengers Belted?,0.7880410753400372
+SV Were All Passengers Belted?,City,0.788041075340037
+City,Year,0.7878771010906425
+Year,City,0.7878771010906392
+Month,City,0.7870348237706222
+City,Month,0.7870348237706208
+City,Crash With,0.7821610021197563
+Crash With,City,0.7821610021197553
+City,Hour,0.7817380624407207
+Hour,City,0.7817380624407207
+City,SV Pre-Crash Movement,0.7808987850094531
+SV Pre-Crash Movement,City,0.780898785009453
+City,Mileage Category,0.7793970193292635
+Mileage Category,City,0.779397019329259
+Vehicle,SV Was Vehicle Towed?,0.7776812859800003
+SV Was Vehicle Towed?,Vehicle,0.7776812859800002
+City,SV Contact Area - Front,0.7775874060206491
+SV Contact Area - Front,City,0.7775874060206485
+SV Contact Area - Front Left,City,0.7723058315569215
+City,SV Contact Area - Front Left,0.7723058315569205
+Vehicle,SV Contact Area - Top,0.7710738885099366
+SV Contact Area - Top,Vehicle,0.7710738885099365
+City,CP Contact Area - Front,0.769155915659369
+CP Contact Area - Front,City,0.7691559156593688
+SV Contact Area - Rear Right,City,0.7690057587947388
+City,SV Contact Area - Rear Right,0.7690057587947385
+Lighting,City,0.7607235800343779
+City,Lighting,0.7607235800343771
+City,CP Was Vehicle Towed?,0.7602822112284608
+CP Was Vehicle Towed?,City,0.7602822112284564
+City,SV Contact Area - Left,0.7571423362465324
+SV Contact Area - Left,City,0.7571423362465296
+Vehicle,Highest Injury Severity Alleged,0.7566435436692033
+Highest Injury Severity Alleged,Vehicle,0.7566435436692031
+CP Contact Area - Front Left,City,0.7535191309215383
+City,CP Contact Area - Front Left,0.7535191309215368
+CP Contact Area - Front Right,City,0.7496480577018274
+City,CP Contact Area - Front Right,0.7496480577018269
+City,SV Any Air Bags Deployed?,0.7490987569505051
+SV Any Air Bags Deployed?,City,0.7490987569505022
+City,SV Contact Area - Rear Left,0.7483934355667967
+SV Contact Area - Rear Left,City,0.748393435566795
+CP Contact Area - Front,CP Contact Area - Front Left,0.7370063504948268
+CP Contact Area - Front Left,CP Contact Area - Front,0.7370063504948268
+City,CP Contact Area - Right,0.7366529622562786
+CP Contact Area - Right,City,0.736652962256278
+CP Contact Area - Left,City,0.7365784076068752
+City,CP Contact Area - Left,0.7365784076068737
+Vehicle,SV Were All Passengers Belted?,0.7326744195183308
+SV Were All Passengers Belted?,Vehicle,0.7326744195183307
+CP Contact Area - Rear Left,City,0.7322456918386758
+City,CP Contact Area - Rear Left,0.7322456918386718
+City,CP Contact Area - Rear Right,0.7300036567919652
+CP Contact Area - Rear Right,City,0.7300036567919639
+City,Model Year,0.7212395560244612
+Model Year,City,0.7212395560244607
+City,CP Contact Area - Top,0.7206885872766642
+CP Contact Area - Top,City,0.7206885872766639
+City,CP Contact Area - Rear,0.7157830797415501
+CP Contact Area - Rear,City,0.7157830797415468
+SV Was Vehicle Towed?,Model,0.7100051211273504
+Model,SV Was Vehicle Towed?,0.7100051211273504
+SV Contact Area - Rear,City,0.7078218086714019
+City,SV Contact Area - Rear,0.707821808671399
+City,SV Was Vehicle Towed?,0.7005073513535467
+SV Was Vehicle Towed?,City,0.7005073513535465
+Vehicle,CP Any Air Bags Deployed?,0.6942203537703623
+CP Any Air Bags Deployed?,Vehicle,0.6942203537703621
+SV Contact Area - Front Right,SV Contact Area - Front,0.6941773066728357
+SV Contact Area - Front,SV Contact Area - Front Right,0.6941773066728357
+Weather - Unknown,Roadway Description,0.692234900626585
+Roadway Description,Weather - Unknown,0.692234900626585
+Driver / Operator Type,Model,0.690729812008911
+Model,Driver / Operator Type,0.6907298120089108
+SV Were All Passengers Belted?,Model,0.6838301841859448
+Model,SV Were All Passengers Belted?,0.6838301841859448
+CP Was Vehicle Towed?,CP Any Air Bags Deployed?,0.679764827841361
+CP Any Air Bags Deployed?,CP Was Vehicle Towed?,0.679764827841361
+Crash With,Weather - Unknown,0.6766048335428726
+Weather - Unknown,Crash With,0.6766048335428726
+SV Contact Area - Front,SV Contact Area - Front Left,0.662564199275787
+SV Contact Area - Front Left,SV Contact Area - Front,0.662564199275787
+Weather - Other Text,Vehicle,0.6608423869819922
+Vehicle,Weather - Other Text,0.6608423869819922
+CP Contact Area - Front Right,CP Contact Area - Front,0.6588480598878136
+CP Contact Area - Front,CP Contact Area - Front Right,0.6588480598878136
+SV Contact Area - Front Left,Crash With,0.6541842191034356
+Crash With,SV Contact Area - Front Left,0.6541842191034356
+Weather - Clear,Roadway Surface,0.6475369331485588
+Roadway Surface,Weather - Clear,0.6475369331485588
+SV Pre-Crash Movement,Weather - Unknown,0.637202283341558
+Weather - Unknown,SV Pre-Crash Movement,0.637202283341558
+CP Contact Area - Front Right,CP Pre-Crash Movement,0.6272751548622085
+CP Pre-Crash Movement,CP Contact Area - Front Right,0.6272751548622085
+Highest Injury Severity Alleged,Model,0.6257251206739848
+Model,Highest Injury Severity Alleged,0.6257251206739847
+SV Contact Area - Top,Model,0.6220233542760149
+Model,SV Contact Area - Top,0.6220233542760146
+SV Contact Area - Left,SV Contact Area - Rear Left,0.6217875067511905
+SV Contact Area - Rear Left,SV Contact Area - Left,0.6217875067511905
+CP Contact Area - Rear,CP Contact Area - Rear Left,0.6199155621621808
+CP Contact Area - Rear Left,CP Contact Area - Rear,0.6199155621621808
+Lighting,Weather - Clear,0.6099493927538953
+Weather - Clear,Lighting,0.6099493927538951
+CP Contact Area - Front Left,CP Pre-Crash Movement,0.6040947274868143
+CP Pre-Crash Movement,CP Contact Area - Front Left,0.6040947274868143
+SV Contact Area - Front Left,Roadway Description,0.594829503628124
+Roadway Description,SV Contact Area - Front Left,0.594829503628124
+Model,CP Any Air Bags Deployed?,0.59386623045098
+CP Any Air Bags Deployed?,Model,0.5938662304509796
+Weather - Unknown,Weather - Clear,0.5887034614291412
+Weather - Clear,Weather - Unknown,0.5887034614291411
+SV Was Vehicle Towed?,SV Any Air Bags Deployed?,0.5883061663856792
+SV Any Air Bags Deployed?,SV Was Vehicle Towed?,0.5883061663856792
+Crash With,CP Contact Area - Front Right,0.5857956021474677
+CP Contact Area - Front Right,Crash With,0.5857956021474676
+Crash With,SV Contact Area - Front Right,0.5840744173783524
+SV Contact Area - Front Right,Crash With,0.5840744173783523
+SV Contact Area - Right,SV Contact Area - Rear Right,0.5786865490896619
+SV Contact Area - Rear Right,SV Contact Area - Right,0.5786865490896619
+SV Contact Area - Front,Crash With,0.5778382227147055
+Crash With,SV Contact Area - Front,0.5778382227147055
+CP Contact Area - Front,CP Pre-Crash Movement,0.5756146435787751
+CP Pre-Crash Movement,CP Contact Area - Front,0.5756146435787751
+CP Contact Area - Front Left,Crash With,0.5747484732892878
+Crash With,CP Contact Area - Front Left,0.5747484732892878
+Vehicle,Mileage Category,0.5704218411011133
+Mileage Category,Vehicle,0.5704218411011132
+CP Contact Area - Rear Right,CP Contact Area - Rear,0.5691315564672118
+CP Contact Area - Rear,CP Contact Area - Rear Right,0.5691315564672118
+SV Were All Passengers Belted?,Make,0.5681010952414303
+Make,SV Were All Passengers Belted?,0.5681010952414303
+Driver / Operator Type,City,0.5575003561183617
+City,Driver / Operator Type,0.5575003561183607
+CP Contact Area - Rear,CP Pre-Crash Movement,0.5536357744893287
+CP Pre-Crash Movement,CP Contact Area - Rear,0.5536357744893287
+SV Pre-Crash Movement,SV Contact Area - Front Left,0.5473710397461025
+SV Contact Area - Front Left,SV Pre-Crash Movement,0.5473710397461024
+CP Contact Area - Bottom,CP Contact Area - Top,0.5458259057119245
+CP Contact Area - Top,CP Contact Area - Bottom,0.5458259057119245
+Vehicle,Year,0.545157139421864
+Year,Vehicle,0.5451571394218638
+SV Contact Area - Rear Right,SV Contact Area - Rear,0.5410143546547754
+SV Contact Area - Rear,SV Contact Area - Rear Right,0.5410143546547754
+Weather - Clear,Roadway Type,0.535627910401148
+Roadway Type,Weather - Clear,0.535627910401148
+SV Was Vehicle Towed?,Make,0.5322598334651368
+Make,SV Was Vehicle Towed?,0.5322598334651368
+SV Contact Area - Front Right,Roadway Description,0.5262467493757297
+Roadway Description,SV Contact Area - Front Right,0.5262467493757296
+SV Contact Area - Front,Roadway Description,0.5258409776933805
+Roadway Description,SV Contact Area - Front,0.5258409776933805
+CP Contact Area - Rear Left,CP Pre-Crash Movement,0.5177350592094855
+CP Pre-Crash Movement,CP Contact Area - Rear Left,0.5177350592094855
+Driver / Operator Type,Make,0.5161694123089331
+Make,Driver / Operator Type,0.5161694123089331
+CP Contact Area - Front,Crash With,0.5160675028603234
+Crash With,CP Contact Area - Front,0.5160675028603234
+Weather - Cloudy,Weather - Clear,0.5044429326215899
+Weather - Clear,Weather - Cloudy,0.5044429326215899
+Weather - Other,Vehicle,0.49666571633749784
+Vehicle,Weather - Other,0.49666571633749784
+CP Was Vehicle Towed?,Make,0.4956661991802499
+Make,CP Was Vehicle Towed?,0.4956661991802499
+Mileage Category,Model Year,0.49545724109841444
+Model Year,Mileage Category,0.4954572410984144
+Vehicle,Weather - Unknown,0.49255828426220366
+Weather - Unknown,Vehicle,0.49255828426220355
+Highest Injury Severity Alleged,Make,0.49239606108264405
+Make,Highest Injury Severity Alleged,0.49239606108264405
+SV Contact Area - Front Right,SV Pre-Crash Movement,0.4922749157612432
+SV Pre-Crash Movement,SV Contact Area - Front Right,0.4922749157612432
+CP Contact Area - Front Right,CP Contact Area - Right,0.48809563127679817
+CP Contact Area - Right,CP Contact Area - Front Right,0.48809563127679817
+SV Contact Area - Front Left,Roadway Type,0.48695270935413054
+Roadway Type,SV Contact Area - Front Left,0.48695270935413054
+SV Contact Area - Front Left,Lighting,0.4852728617268968
+Lighting,SV Contact Area - Front Left,0.4852728617268968
+SV Contact Area - Front,SV Pre-Crash Movement,0.4840147116924118
+SV Pre-Crash Movement,SV Contact Area - Front,0.4840147116924118
+SV Contact Area - Left,Crash With,0.4839924225063726
+Crash With,SV Contact Area - Left,0.48399242250637253
+Lighting,Roadway Surface,0.4811620598948925
+Roadway Surface,Lighting,0.4811620598948925
+Weather - Other Text,Model,0.478511787041757
+Model,Weather - Other Text,0.4785117870417569
+CP Contact Area - Right,CP Contact Area - Rear Right,0.477882919889055
+CP Contact Area - Rear Right,CP Contact Area - Right,0.477882919889055
+Roadway Type,Roadway Surface,0.47515249446361446
+Roadway Surface,Roadway Type,0.4751524944636144
+CP Contact Area - Rear Right,CP Pre-Crash Movement,0.4715502062654595
+CP Pre-Crash Movement,CP Contact Area - Rear Right,0.47155020626545946
+Vehicle,CP Contact Area - Bottom,0.4706225927856373
+CP Contact Area - Bottom,Vehicle,0.47062259278563723
+SV Contact Area - Front Left,Roadway Surface,0.47020863945246777
+Roadway Surface,SV Contact Area - Front Left,0.47020863945246766
+SV Contact Area - Front Left,SV Contact Area - Left,0.46482267723957155
+SV Contact Area - Left,SV Contact Area - Front Left,0.46482267723957155
+CP Contact Area - Front Right,CP Contact Area - Front Left,0.46469488536073467
+CP Contact Area - Front Left,CP Contact Area - Front Right,0.46469488536073467
+SV Contact Area - Front Left,Weather - Unknown,0.4646446526484007
+Weather - Unknown,SV Contact Area - Front Left,0.4646446526484007
+Lighting,Vehicle,0.4601133400872303
+Vehicle,Lighting,0.4601133400872303
+SV Contact Area - Front Right,SV Contact Area - Front Left,0.4595349386766139
+SV Contact Area - Front Left,SV Contact Area - Front Right,0.4595349386766139
+SV Pre-Crash Movement,Vehicle,0.4562752459191104
+Vehicle,SV Pre-Crash Movement,0.4562752459191104
+SV Contact Area - Front Right,CP Pre-Crash Movement,0.45480866604553927
+CP Pre-Crash Movement,SV Contact Area - Front Right,0.4548086660455392
+CP Contact Area - Right,CP Pre-Crash Movement,0.4537868881110537
+CP Pre-Crash Movement,CP Contact Area - Right,0.4537868881110537
+SV Contact Area - Front,CP Pre-Crash Movement,0.4520244064210141
+CP Pre-Crash Movement,SV Contact Area - Front,0.45202440642101405
+SV Contact Area - Front,Roadway Type,0.4518895079259978
+Roadway Type,SV Contact Area - Front,0.4518895079259978
+Weather - Snow,Make,0.44850492908953377
+Make,Weather - Snow,0.44850492908953377
+CP Contact Area - Rear Left,Crash With,0.44624905940726056
+Crash With,CP Contact Area - Rear Left,0.44624905940726056
+Roadway Type,SV Contact Area - Front Right,0.4381928322200394
+SV Contact Area - Front Right,Roadway Type,0.43819283222003935
+SV Contact Area - Rear,Vehicle,0.4358946218728807
+Vehicle,SV Contact Area - Rear,0.43589462187288053
+CP Contact Area - Left,CP Contact Area - Rear Left,0.433546632187201
+CP Contact Area - Rear Left,CP Contact Area - Left,0.43354663218720096
+CP Contact Area - Rear Right,Crash With,0.43326834938464964
+Crash With,CP Contact Area - Rear Right,0.43326834938464964
+Model,Year,0.4312107363401922
+Year,Model,0.431210736340192
+SV Contact Area - Front,Lighting,0.4279339244561845
+Lighting,SV Contact Area - Front,0.4279339244561845
+SV Contact Area - Front Right,Lighting,0.4270916643978463
+Lighting,SV Contact Area - Front Right,0.4270916643978462
+SV Contact Area - Rear,CP Contact Area - Front,0.4260234588460289
+CP Contact Area - Front,SV Contact Area - Rear,0.4260234588460289
+Weather - Cloudy,Roadway Surface,0.42327475686340094
+Roadway Surface,Weather - Cloudy,0.4232747568634009
+SV Contact Area - Rear Right,CP Contact Area - Front Left,0.42089020256364834
+CP Contact Area - Front Left,SV Contact Area - Rear Right,0.42089020256364834
+SV Contact Area - Front Right,Roadway Surface,0.4204862147562235
+Roadway Surface,SV Contact Area - Front Right,0.4204862147562235
+CP Pre-Crash Movement,Weather - Unknown,0.4187882250382472
+Weather - Unknown,CP Pre-Crash Movement,0.4187882250382472
+SV Contact Area - Bottom,Crash With,0.41810276189853063
+Crash With,SV Contact Area - Bottom,0.4181027618985305
+SV Was Vehicle Towed?,Highest Injury Severity Alleged,0.41588110495719777
+Highest Injury Severity Alleged,SV Was Vehicle Towed?,0.41588110495719777
+Roadway Surface,SV Contact Area - Front,0.41574547613924184
+SV Contact Area - Front,Roadway Surface,0.41574547613924173
+Crash With,Roadway Description,0.41415795432926705
+Roadway Description,Crash With,0.41415795432926705
+Crash With,Weather - Clear,0.41398555580550234
+Weather - Clear,Crash With,0.4139855558055022
+SV Contact Area - Front Left,Vehicle,0.41350918203875464
+Vehicle,SV Contact Area - Front Left,0.4135091820387546
+SV Contact Area - Left,SV Pre-Crash Movement,0.41206003874736696
+SV Pre-Crash Movement,SV Contact Area - Left,0.4120600387473668
+SV Contact Area - Front,Vehicle,0.4099227343854624
+Vehicle,SV Contact Area - Front,0.40992273438546223
+SV Contact Area - Rear,SV Contact Area - Rear Left,0.40900369990027863
+SV Contact Area - Rear Left,SV Contact Area - Rear,0.40900369990027863
+SV Contact Area - Front,Weather - Unknown,0.4076652410718403
+Weather - Unknown,SV Contact Area - Front,0.4076652410718403
+SV Contact Area - Front Right,Weather - Unknown,0.4065655212719445
+Weather - Unknown,SV Contact Area - Front Right,0.40656552127194445
+CP Contact Area - Left,CP Pre-Crash Movement,0.4053926117258371
+CP Pre-Crash Movement,CP Contact Area - Left,0.40539261172583707
+SV Contact Area - Front Right,Vehicle,0.4046753503197938
+Vehicle,SV Contact Area - Front Right,0.40467535031979374
+SV Were All Passengers Belted?,Highest Injury Severity Alleged,0.4024058014349258
+Highest Injury Severity Alleged,SV Were All Passengers Belted?,0.4024058014349258
+CP Contact Area - Right,Crash With,0.40186243046564935
+Crash With,CP Contact Area - Right,0.40186243046564935
+Weather - Cloudy,Lighting,0.40078370412352643
+Lighting,Weather - Cloudy,0.40078370412352643
+CP Contact Area - Front Left,CP Contact Area - Left,0.39635403325927904
+CP Contact Area - Left,CP Contact Area - Front Left,0.39635403325927904
+Weather - Clear,Vehicle,0.39606363190152966
+Vehicle,Weather - Clear,0.39606363190152966
+Roadway Type,Lighting,0.39325235049390833
+Lighting,Roadway Type,0.3932523504939083
+Crash With,SV Contact Area - Rear Left,0.3918758421345977
+SV Contact Area - Rear Left,Crash With,0.39187584213459764
+Roadway Description,Vehicle,0.38936999786057636
+Vehicle,Roadway Description,0.38936999786057636
+Crash With,CP Contact Area - Left,0.3848944482955882
+CP Contact Area - Left,Crash With,0.38489444829558817
+SV Pre-Crash Movement,Model,0.3842853628985106
+Model,SV Pre-Crash Movement,0.3842853628985106
+Weather - Clear,Roadway Description,0.3811793438833859
+Roadway Description,Weather - Clear,0.3811793438833859
+Vehicle,CP Contact Area - Rear,0.3803872570210566
+CP Contact Area - Rear,Vehicle,0.38038725702105647
+Weather - Unknown,Model Year,0.3798503857007993
+Model Year,Weather - Unknown,0.3798503857007993
+SV Contact Area - Rear Left,Vehicle,0.3772341850756496
+Vehicle,SV Contact Area - Rear Left,0.3772341850756496
+SV Any Air Bags Deployed?,Vehicle,0.3757845083687631
+Vehicle,SV Any Air Bags Deployed?,0.37578450836876304
+SV Contact Area - Front Right,CP Contact Area - Rear Left,0.3746617274203867
+CP Contact Area - Rear Left,SV Contact Area - Front Right,0.3746617274203867
+SV Contact Area - Rear Right,CP Contact Area - Front,0.37417648920791063
+CP Contact Area - Front,SV Contact Area - Rear Right,0.37417648920791063
+CP Contact Area - Rear,Crash With,0.3739462214054882
+Crash With,CP Contact Area - Rear,0.3739462214054881
+Weather - Other,Model,0.37374051860492524
+Model,Weather - Other,0.37374051860492524
+Roadway Surface,Vehicle,0.3725941920289669
+Vehicle,Roadway Surface,0.3725941920289669
+SV Contact Area - Rear Left,SV Pre-Crash Movement,0.36869281389186487
+SV Pre-Crash Movement,SV Contact Area - Rear Left,0.3686928138918648
+SV Contact Area - Front Right,SV Contact Area - Right,0.36838212097554207
+SV Contact Area - Right,SV Contact Area - Front Right,0.36838212097554207
+CP Contact Area - Rear Left,Vehicle,0.3671065380308656
+Vehicle,CP Contact Area - Rear Left,0.3671065380308656
+Roadway Description,SV Contact Area - Left,0.3643795409363114
+SV Contact Area - Left,Roadway Description,0.36437954093631136
+Roadway Description,Roadway Surface,0.3642115632322094
+Roadway Surface,Roadway Description,0.3642115632322094
+SV Contact Area - Right,Vehicle,0.3638741803620348
+Vehicle,SV Contact Area - Right,0.3638741803620348
+SV Pre-Crash Movement,Roadway Description,0.3632171024504093
+Roadway Description,SV Pre-Crash Movement,0.3632171024504093
+CP Contact Area - Front Right,Roadway Type,0.36274345927197754
+Roadway Type,CP Contact Area - Front Right,0.36274345927197754
+CP Was Vehicle Towed?,SV Was Vehicle Towed?,0.36216739669146897
+SV Was Vehicle Towed?,CP Was Vehicle Towed?,0.3621673966914689
+State,Vehicle,0.3621235188253183
+Vehicle,State,0.3621235188253183
+CP Contact Area - Rear Right,CP Contact Area - Rear Left,0.3618930790104637
+CP Contact Area - Rear Left,CP Contact Area - Rear Right,0.3618930790104636
+SV Was Vehicle Towed?,Driver / Operator Type,0.36117522982134403
+Driver / Operator Type,SV Was Vehicle Towed?,0.36117522982134403
+CP Any Air Bags Deployed?,Crash With,0.36081489581511494
+Crash With,CP Any Air Bags Deployed?,0.36081489581511494
+Make,CP Any Air Bags Deployed?,0.3606469387730095
+CP Any Air Bags Deployed?,Make,0.36064693877300946
+SV Was Vehicle Towed?,SV Pre-Crash Movement,0.3590946911665069
+SV Pre-Crash Movement,SV Was Vehicle Towed?,0.3590946911665069
+CP Any Air Bags Deployed?,CP Pre-Crash Movement,0.3590270722347775
+CP Pre-Crash Movement,CP Any Air Bags Deployed?,0.3590270722347775
+Crash With,Vehicle,0.356912802090429
+Vehicle,Crash With,0.356912802090429
+SV Contact Area - Left,Vehicle,0.3561460682667869
+Vehicle,SV Contact Area - Left,0.35614606826678685
+Crash With,Roadway Surface,0.3545182182161622
+Roadway Surface,Crash With,0.3545182182161622
+Model,Lighting,0.35290979928960375
+Lighting,Model,0.3529097992896037
+SV Pre-Crash Movement,CP Contact Area - Front Right,0.35213985220585053
+CP Contact Area - Front Right,SV Pre-Crash Movement,0.35213985220585053
+SV Was Vehicle Towed?,CP Any Air Bags Deployed?,0.3520659135295284
+CP Any Air Bags Deployed?,SV Was Vehicle Towed?,0.3520659135295284
+SV Pre-Crash Movement,CP Contact Area - Front Left,0.35127684783339
+CP Contact Area - Front Left,SV Pre-Crash Movement,0.35127684783339
+CP Pre-Crash Movement,SV Contact Area - Rear,0.3507435553317897
+SV Contact Area - Rear,CP Pre-Crash Movement,0.35074355533178964
+CP Pre-Crash Movement,Vehicle,0.3483460061316956
+Vehicle,CP Pre-Crash Movement,0.34834600613169553
+SV Contact Area - Front Left,CP Pre-Crash Movement,0.3473447302115963
+CP Pre-Crash Movement,SV Contact Area - Front Left,0.3473447302115963
+Month,Year,0.34682434374350124
+Year,Month,0.34682434374350124
+SV Pre-Crash Movement,Weather - Clear,0.3465124620192359
+Weather - Clear,SV Pre-Crash Movement,0.3465124620192358
+SV Contact Area - Rear Right,CP Pre-Crash Movement,0.3450992883878401
+CP Pre-Crash Movement,SV Contact Area - Rear Right,0.3450992883878401
+SV Contact Area - Rear,Model,0.3445354428202843
+Model,SV Contact Area - Rear,0.3445354428202842
+CP Pre-Crash Movement,Crash With,0.3437903388844014
+Crash With,CP Pre-Crash Movement,0.3437903388844014
+CP Contact Area - Front Left,CP Any Air Bags Deployed?,0.3422087110002871
+CP Any Air Bags Deployed?,CP Contact Area - Front Left,0.3422087110002871
+Roadway Type,SV Contact Area - Rear Left,0.3415924473848276
+SV Contact Area - Rear Left,Roadway Type,0.3415924473848275
+Weather - Cloudy,Vehicle,0.3408492099175545
+Vehicle,Weather - Cloudy,0.34084920991755446
+SV Contact Area - Rear Right,Vehicle,0.34050501012508844
+Vehicle,SV Contact Area - Rear Right,0.34050501012508827
+CP Contact Area - Front Right,CP Any Air Bags Deployed?,0.339999283919045
+CP Any Air Bags Deployed?,CP Contact Area - Front Right,0.339999283919045
+SV Contact Area - Rear,SV Pre-Crash Movement,0.3396206122350509
+SV Pre-Crash Movement,SV Contact Area - Rear,0.3396206122350509
+Weather - Rain,Vehicle,0.3393870808974666
+Vehicle,Weather - Rain,0.33938708089746644
+SV Pre-Crash Movement,CP Contact Area - Front,0.33906967698545526
+CP Contact Area - Front,SV Pre-Crash Movement,0.33906967698545526
+Weather - Fog/Smoke,State,0.33715977843951056
+State,Weather - Fog/Smoke,0.33715977843951056
+CP Was Vehicle Towed?,Highest Injury Severity Alleged,0.33672076260175277
+Highest Injury Severity Alleged,CP Was Vehicle Towed?,0.33672076260175277
+Lighting,Roadway Description,0.3345256902306904
+Roadway Description,Lighting,0.33452569023069034
+CP Contact Area - Front Left,Roadway Type,0.3343288926616486
+Roadway Type,CP Contact Area - Front Left,0.3343288926616486
+SV Pre-Crash Movement,Roadway Surface,0.33388813702243625
+Roadway Surface,SV Pre-Crash Movement,0.33388813702243625
+Roadway Description,Roadway Type,0.3329488493581847
+Roadway Type,Roadway Description,0.33294884935818464
+CP Contact Area - Front Right,Roadway Description,0.3310038748821062
+Roadway Description,CP Contact Area - Front Right,0.3310038748821062
+Crash With,Lighting,0.3283370602088661
+Lighting,Crash With,0.3283370602088661
+Roadway Description,SV Contact Area - Rear Left,0.32811648780151004
+SV Contact Area - Rear Left,Roadway Description,0.32811648780151
+CP Contact Area - Rear,SV Contact Area - Front,0.32780433571624706
+SV Contact Area - Front,CP Contact Area - Rear,0.327804335716247
+Vehicle,Month,0.3262455288401862
+Month,Vehicle,0.3262455288401862
+CP Contact Area - Front Left,Roadway Description,0.32612005110345843
+Roadway Description,CP Contact Area - Front Left,0.32612005110345843
+SV Contact Area - Top,Make,0.32610744408935866
+Make,SV Contact Area - Top,0.32610744408935866
+SV Contact Area - Rear,CP Contact Area - Front Left,0.3260390812006251
+CP Contact Area - Front Left,SV Contact Area - Rear,0.3260390812006251
+CP Pre-Crash Movement,Roadway Description,0.32188976078757314
+Roadway Description,CP Pre-Crash Movement,0.32188976078757314
+Weather - Unknown,Weather - Cloudy,0.31990841924977703
+Weather - Cloudy,Weather - Unknown,0.31990841924977703
+Hour,Lighting,0.31859866169784856
+Lighting,Hour,0.3185986616978485
+SV Contact Area - Front Left,CP Contact Area - Rear Right,0.3176641665551488
+CP Contact Area - Rear Right,SV Contact Area - Front Left,0.3176641665551488
+SV Contact Area - Rear Right,Crash With,0.3173864128263801
+Crash With,SV Contact Area - Rear Right,0.3173864128263801
+CP Contact Area - Front,Roadway Type,0.3172111919431602
+Roadway Type,CP Contact Area - Front,0.3172111919431602
+CP Contact Area - Bottom,Model,0.3170575198220025
+Model,CP Contact Area - Bottom,0.3170575198220025
+Vehicle,Hour,0.31522042560810715
+Hour,Vehicle,0.31522042560810715
+SV Contact Area - Left,Roadway Type,0.3145833681639493
+Roadway Type,SV Contact Area - Left,0.3145833681639492
+SV Any Air Bags Deployed?,Model,0.31383686896187246
+Model,SV Any Air Bags Deployed?,0.31383686896187246
+SV Contact Area - Front,CP Contact Area - Rear Right,0.3133673173847878
+CP Contact Area - Rear Right,SV Contact Area - Front,0.3133673173847878
+SV Pre-Crash Movement,Crash With,0.31290109386807086
+Crash With,SV Pre-Crash Movement,0.31290109386807086
+SV Contact Area - Rear,CP Contact Area - Front Right,0.3111645636554767
+CP Contact Area - Front Right,SV Contact Area - Rear,0.3111645636554767
+SV Pre-Crash Movement,Roadway Type,0.30839432938984884
+Roadway Type,SV Pre-Crash Movement,0.30839432938984884
+Crash With,Roadway Type,0.3077887630877915
+Roadway Type,Crash With,0.3077887630877915
+Highest Injury Severity Alleged,State,0.3071428850140825
+State,Highest Injury Severity Alleged,0.3071428850140825
+SV Were All Passengers Belted?,SV Was Vehicle Towed?,0.3071363082324019
+SV Was Vehicle Towed?,SV Were All Passengers Belted?,0.3071363082324019
+Highest Injury Severity Alleged,CP Contact Area - Bottom,0.3054743727129329
+CP Contact Area - Bottom,Highest Injury Severity Alleged,0.3054743727129328
+Weather - Cloudy,Roadway Type,0.30271884194247994
+Roadway Type,Weather - Cloudy,0.30271884194247994
+Speed Difference Category,Vehicle,0.30168670242295137
+Vehicle,Speed Difference Category,0.30168670242295137
