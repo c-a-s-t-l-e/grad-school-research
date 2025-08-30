@@ -24,9 +24,10 @@ cramerV <- function(x, y) {
 
 ##################################################################################################################
 # Make a Matrix from the Cramer's V Scores
+##################################################################################################################
 
-# Select which categorical columns you would like to get from the dataset
-all_cats <- crash_data_mca %>% select(-c(City, State, Model, Make, `Model Year`, Vehicle)) # all as factor
+# Select which categorical columns you would like to get from the dataset (plugin your dataframe here)
+all_cats <- YOUR_DATAFRAME %>% select(-c(City, State, Model, Make, `Model Year`, Vehicle)) # all as factor
 
 # Build Cramér’s V matrix that consists of the items being on the x and y axes
 mat <- outer(names(all_cats), names(all_cats),
