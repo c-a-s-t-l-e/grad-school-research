@@ -1,0 +1,238 @@
+---
+title: "Overview of ADAS Data"
+format: pdf
+editor: visual
+---
+
+## Overview of the Dataset
+
+Original dataset rows: 4,029 rows, 137 columns
+
+#### Abnormalities in the original dataset:
+
+Summary stats of the most abnormal columns that exist within the dataset that are applicable.
+
+-   Plenty of missing values in quite a number of columns
+
+-   At least a few outliers (like on in Mileage)
+
+```{r}
+#| warning: false
+library(tidyverse)
+
+adas_data <- read_csv("ADAS_level_2.csv")
+
+# view stats by converting dataframe columns to type factor
+adas_factor <- adas_data %>% 
+  mutate(across(where(is.character), as.factor))
+
+summary(adas_factor)
+```
+
+As can be seen, there's a lot going on in the dataset.
+
+#### How things got cleaned up
+
+1.  Chose to keep the following columns based on category:
+
+    **Car Specific:**
+
+    -   Make
+
+    -   Model
+
+    -   Year
+
+    -   Mileage
+
+    **Time Specific:**
+
+    -   Incident Date
+
+    -   Incident Time
+
+    **Location Specific:**
+
+    -   Roadway Type
+
+    -   Roadway Surface
+
+    -   Roadway Description
+
+    -   Posted Speed Limit
+
+    -   City
+
+    -   State
+
+    **Crash Specific:**
+
+    -   Lighting
+
+    -   Weather Columns
+
+    -   Areas Where the Subject Vehicle Where Hit
+
+    -   Areas Where the Crash Partner Where Hit
+
+    -   What the Subject Vehicle Hit
+
+    -   Highest Alleged Injury Severity
+
+    -   Pre-Crash Subject Vehicle Speed
+
+Afterwards, did the following:
+
+-   grabbed only the reports that were the first version
+
+-   filled in the missing values for non-binary columns with "Unknown"
+
+-   filled in the missing values for the binary columns with "N" to match "Y"
+
+-   removed rows where missing values couldn't be filled in for the following columns:
+
+    -   Posted Speed Limit
+
+    -   Mileage
+
+    -   Hour
+
+-   created the following categorical columns:
+
+    -   Speed Difference Category
+
+        -   Categories are:
+
+            -   At or Below Limit (0 or below the speed limit)
+
+            -   Slightly Over (0 to 10 over)
+
+            -   Moderately Over (10 to 20 over
+
+            -   Significantly Over (20+ over)
+
+    -   Mileage Category
+
+        -   Categories based on the data:
+
+            -   Low (10,728 miles or below
+
+            -   Medium (10,728 to 27,161 miles)
+
+            -   High (27,161 to 52,707 miles)
+
+            -   Very High (52,707 miles)
+
+-   dropped the following columns:
+
+    -   Posted Speed Limit
+
+    -   Pre-Crash Subject Vehicle Speed
+
+    -   Speed Difference (the difference between the pre-crash speed and the posted speed limit)
+
+    -   Incident Time
+
+    -   Incident Date
+
+The following code illustrates this process:
+
+```{r}
+crash_data <- adas_data %>% 
+  select(`Report Version`, Make, Model, `Model Year`, Mileage, `Driver / Operator Type`, # grab specific crash columns
+         `Incident Date`, `Incident Time (24:00)`, City, State, `Roadway Type`, 
+         `Roadway Surface`, `Roadway Description`, `Posted Speed Limit (MPH)`,
+         Lighting, matches("weather", ignore.case = TRUE), `Crash With`,
+         `Highest Injury Severity Alleged`, matches("cp", ignore.case = TRUE), 
+         matches("sv", ignore.case = TRUE), ) %>% 
+  filter(`Report Version` == 1) %>% # only grab the first version of the reports
+  select(-`Report Version`) %>% 
+  mutate(Make = tolower(Make)) %>%  # clean up the car makes
+  mutate(Make = recode(Make,
+                       `lucid air` = "lucid",
+                       `lucid motors` = "lucid",
+                       acrua = "acura"
+                       )) %>% 
+  mutate(Make = str_to_title(Make)) %>% 
+  mutate(Make = recode(Make,
+                       Gmc = "GMC",
+                       Bmw = "BMW",
+                       `Mercedes-benz` = "Mercedes-Benz",
+                       )) %>% 
+  unite(Vehicle, Make, Model, `Model Year`, sep = " ", remove = FALSE) # make Vehicle column from Make, Model, and Model Year
+
+# make the time columns
+crash_data <- crash_data %>% 
+  mutate(Date = my(`Incident Date`),
+         Month = month(Date), # make Month column
+         Year = year(Date), # make Year column
+         Hour = hour(round_date(as.POSIXct(crash_data$`Incident Time (24:00)`, format="%H:%M:%S"), unit = "hour"))# make Hour column
+         ) %>% 
+  relocate(Year, Month, Hour, .before = Vehicle) %>% 
+  select(-c(`Incident Date`, `Incident Time (24:00)`, Date))
+
+# fill in missing values
+crash_data$City[is.na(crash_data$City)] <- "Unknown"
+crash_data$`CP Pre-Crash Movement`[is.na(crash_data$`CP Pre-Crash Movement`)] <- "Unknown"
+crash_data$`CP Any Air Bags Deployed?`[is.na(crash_data$`CP Any Air Bags Deployed?`)] <- "Unknown"
+crash_data$`CP Was Vehicle Towed?`[is.na(crash_data$`CP Was Vehicle Towed?`)] <- "Unknown"
+
+# convert column to type character
+crash_data$`Weather - Severe Wind` <- as.character(crash_data$`Weather - Severe Wind`)
+
+# fill in missing values in weather with "N"
+crash_data <- crash_data %>%
+  mutate(across(contains("Weather", ignore.case = TRUE), ~ replace_na(.x, "N")))
+
+# fill in the missing values in the crash partner columns (CP) with "N"
+crash_data <- crash_data %>%
+  mutate(across(contains("CP", ignore.case = TRUE), ~ replace_na(.x, "N")))
+
+# drop missing value rows for Precrash Speed so the matching is easier to fill in
+# the rest of the SV columns with "N"
+crash_data <- crash_data %>% filter(!is.na(`SV Precrash Speed (MPH)`))
+
+# fill in the missing values in the SV columns with "N"
+crash_data <- crash_data %>%
+  mutate(across(contains("SV", ignore.case = TRUE), ~ replace_na(.x, "N")))
+
+# remove rows that have missing values that can't be filled in
+crash_data <- crash_data %>% filter(!is.na(`Posted Speed Limit (MPH)`))
+crash_data <- crash_data %>% filter(!is.na(Mileage))
+crash_data <- crash_data %>% filter(!is.na(`Hour`))
+
+# create to replace numeric Speed Limit by making a difference categorical column
+crash_data <- crash_data %>% 
+  mutate(`Speed Difference` = `SV Precrash Speed (MPH)` - `Posted Speed Limit (MPH)`)
+
+# make speed category column from Speed Difference column
+crash_data$`Speed Difference Category` <- cut(
+  crash_data$`Speed Difference`,
+  breaks = c(-Inf, 0, 10, 20, Inf),
+  labels = c("At or Below Limit", "Slightly Over", "Moderately Over", "Significantly Over")
+)
+
+# make mileage category column from Mileage column
+crash_data$`Mileage Category` <- cut(
+  crash_data$Mileage,
+  breaks = c(-Inf, 10728, 27161, 52707, Inf),
+  labels = c("Low", "Medium", "High", "Very High")
+)
+
+# drop speed columns, mileage, and unknown contact area
+crash_data <- crash_data %>% 
+  select(-c(`SV Precrash Speed (MPH)`, `SV Pre-crash Speed - Unknown`, `Posted Speed Limit (MPH)`, `Speed Difference`, Mileage, `SV Contact Area - Unknown`, `CP Contact Area - Unknown`))
+```
+
+#### What the dataset looks like now
+
+Most relevant columns
+
+```{r}
+
+# convert every column into the final dataframe to type factor to view stats, etc.
+crash_data <- crash_data %>% 
+  mutate(across(everything(), as.factor))
+
+summary(crash_data)
+```
