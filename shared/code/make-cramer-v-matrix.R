@@ -60,3 +60,19 @@ corrplot(mat_high, method = "color", is.corr = FALSE,
          tl.col = "black", tl.cex = 0.6, tl.srt = 45,
          na.label = " ")   # blank out the NAs
 
+##################################################################################################################
+# Make a Dataframe from Cramer's V Scores
+##################################################################################################################
+
+# Convert to long format
+pairs <- melt(mat, varnames = c("Var1", "Var2"), value.name = "CramerV")
+
+# Keep only upper triangle (no duplicates) & filter
+pairs <- pairs[!is.na(pairs$CramerV) & pairs$Var1 != pairs$Var2, ]
+pairs <- pairs[pairs$CramerV >= threshold, ]
+
+# Sort by strength
+pairs <- pairs[order(-pairs$CramerV), ]
+
+# Make a dataframe of all the pairs
+cramer_df <- data.frame(pairs)
