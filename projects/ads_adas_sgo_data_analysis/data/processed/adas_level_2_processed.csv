@@ -103,7 +103,7 @@ year,month,hour,city,state,make,model,model_year,vin,mileage_category,weather,ro
 2025,5,16,San Diego,CA,Tesla,Model Y,2025,7SAYGDEF3SF,Low,Cloudy,Highway / Freeway,Dry,Daylight,Proceeding Straight,Stopped,CP Rear-Ended By SV,Unknown
 2025,5,14,Sunol,CA,Tesla,Model 3,2019,5YJ3E1EB9KF,Low Medium,Clear,Highway / Freeway,Dry,Daylight,Proceeding Straight,Proceeding Straight,CP Rear-Ended By SV,Unknown
 2025,5,5,Boca Raton,FL,Tesla,Model 3,2024,5YJ3E1EB6RF,Low,Clear,Street,Dry,Dark - Lighted,Lane / Road Departure,Unknown,Top / Rollover / Unusual Impact,Unknown
-2025,5,0,Coeur d‚??Alene,ID,Tesla,Model 3,2022,5YJ3E1EB5NF,Low Medium,Clear,Intersection,Dry,Daylight,Making Left Turn,Proceeding Straight,Head-On Collision,Unknown
+2025,5,0,Coeur d√¢??Alene,ID,Tesla,Model 3,2022,5YJ3E1EB5NF,Low Medium,Clear,Intersection,Dry,Daylight,Making Left Turn,Proceeding Straight,Head-On Collision,Unknown
 2025,3,17,Princess Anne,MD,Subaru,Outback,2020,4S4BTANC8L3,High Medium,Clear,Highway / Freeway,Dry,Daylight,Proceeding Straight,Unknown,Other / Unknown,Moderate
 2025,5,1,Clinton,NY,GMC,Yukon,2024,1GKS2EKL2RR,Low,Clear,Highway / Freeway,Unknown,Dark - Not Lighted,Lane / Road Departure,Unknown,Other / Unknown,Unknown
 2025,5,0,Boston,MA,Tesla,Model Y,2024,7SAYGDEE8RA,Low,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Other / Unknown,No Injuries Reported
